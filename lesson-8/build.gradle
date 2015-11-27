@@ -19,7 +19,7 @@ jar {
 
 // Cf. Maven properties
 ext.junitVersion = '4.11'
-ext.seleniumVersion = '2.47.0'
+ext.seleniumVersion = '2.47 .0'
 
 
 // Cf. Maven <dependencies>
