@@ -1,0 +1,17 @@
+    [info] Playing test case Test
+    [info] Executing: |open | registrationform | |
+    [info] Executing: |type | name=firstName | Micha³ |
+    [info] Executing: |type | name=lastName | Tarabasz |
+    [info] Executing: |store | javascript{"m.tarabasz@wp.pl"} | email |
+    [info] Executing: |type | name=email | ${email} |
+    [info] Executing: |type | name=repeatEmail | ${email} |
+    [info] Executing: |click | xpath=(//button[@class='gwt-Button' and text()='SQL']) | |
+    [info] Executing: |pause | 1200 | |
+    [info] Executing: |click | gwt-uid-25 | |
+    [info] Executing: |pause | 1200 | |
+    [info] Executing: |click | gwt-uid-26 | |
+    [info] Executing: |pause | 900 | |
+    [info] Executing: |click | xpath=(//button[@class='gwt-Button' and text()='Save']) | |
+    [info] Executing: |verifyElementHeight | xpath=(//button[@class='gwt-Button' and text()='Reset']) | 36 |
+    [info] Test case passed
+    [info] Test suite completed: 1 played, all passed! 
